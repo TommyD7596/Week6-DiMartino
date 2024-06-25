@@ -1,0 +1,38 @@
+/* styles.css */
+.root {
+    -fx-font-family: 'Arial';
+}
+
+.menu-bar {
+    -fx-background-color: #2b5797;
+}
+
+.menu-bar .menu {
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 0 10px;
+}
+
+.menu-item {
+    -fx-text-fill: black;
+}
+
+.grid-pane {
+    -fx-padding: 10;
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+}
+
+.label {
+    -fx-font-size: 14px;
+}
+
+.text-field, .password-field, .button {
+    -fx-font-size: 14px;
+}
+
+.button {
+    -fx-background-color: #2b5797;
+    -fx-text-fill: white;
+    -fx-padding: 5px 10px;
+}
